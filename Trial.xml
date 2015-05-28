@@ -24,6 +24,16 @@
                 <value name="BOTHMOVLEFT">
                   <block type="math_single" id="465" inline="true">
                     <field name="OP">NEG</field>
+                    <value name="NUM">
+                      <block type="math_number" id="508">
+                        <field name="NUM">2000</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="515">
+                    <field name="NUM">2000</field>
                   </block>
                 </value>
               </block>
