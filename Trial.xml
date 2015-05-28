@@ -1,36 +1,36 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="597" inline="true" x="-122" y="121">
+  <block type="controls_repeat" id="1" inline="true" x="-122" y="121">
     <value name="TIMES">
-      <block type="math_number" id="604">
+      <block type="math_number" id="2">
         <field name="NUM">3</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="534">
+      <block type="movement_forward" id="3">
         <next>
-          <block type="robot_delay" id="494" inline="true">
+          <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="501">
+              <block type="math_number" id="5">
                 <field name="NUM">2000</field>
               </block>
             </value>
             <next>
-              <block type="movement_stutter" id="475">
+              <block type="movement_stutter" id="6">
                 <next>
-                  <block type="movement_right" id="553">
+                  <block type="movement_right" id="7">
                     <next>
-                      <block type="robot_delay" id="555" inline="true">
+                      <block type="robot_delay" id="8" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="562">
+                          <block type="math_number" id="9">
                             <field name="NUM">2000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="movement_left" id="581">
+                          <block type="movement_left" id="10">
                             <next>
-                              <block type="robot_delay" id="583" inline="true">
+                              <block type="robot_delay" id="11" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="590">
+                                  <block type="math_number" id="12">
                                     <field name="NUM">2000</field>
                                   </block>
                                 </value>
