@@ -11,34 +11,14 @@
       </block>
     </value>
     <next>
-      <block type="movement_stutter" id="475">
-        <next>
-          <block type="robot_delay" id="494" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="501">
-                <field name="NUM">1000</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_setmotors" id="485" inline="true">
-                <value name="BOTHMOVLEFT">
-                  <block type="math_single" id="465" inline="true">
-                    <field name="OP">NEG</field>
-                    <value name="NUM">
-                      <block type="math_number" id="508">
-                        <field name="NUM">2000</field>
-                      </block>
-                    </value>
-                  </block>
-                </value>
-                <value name="BOTHMOVRIGHT">
-                  <block type="math_number" id="515">
-                    <field name="NUM">2000</field>
-                  </block>
-                </value>
-              </block>
-            </next>
+      <block type="robot_delay" id="494" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="501">
+            <field name="NUM">1000</field>
           </block>
+        </value>
+        <next>
+          <block type="movement_stutter" id="475"></block>
         </next>
       </block>
     </next>
