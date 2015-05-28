@@ -1,15 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_setmotors" id="434" inline="true" x="-84" y="-28">
-    <value name="BOTHMOVLEFT">
-      <block type="math_number" id="441">
-        <field name="NUM">2000</field>
-      </block>
-    </value>
-    <value name="BOTHMOVRIGHT">
-      <block type="math_number" id="448">
-        <field name="NUM">3000</field>
-      </block>
-    </value>
+  <block type="movement_forward" id="534" x="-45" y="96">
     <next>
       <block type="robot_delay" id="494" inline="true">
         <value name="DELAY">
@@ -18,7 +8,34 @@
           </block>
         </value>
         <next>
-          <block type="movement_stutter" id="475"></block>
+          <block type="movement_stutter" id="475">
+            <next>
+              <block type="movement_right" id="553">
+                <next>
+                  <block type="robot_delay" id="555" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="562">
+                        <field name="NUM">4000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="movement_left" id="581">
+                        <next>
+                          <block type="robot_delay" id="583" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="590">
+                                <field name="NUM">4000</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
